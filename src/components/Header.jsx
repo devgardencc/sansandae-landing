@@ -1,4 +1,4 @@
-const logo = '/assets/sansandae-logo.jpg';
+const logo = '/assets/sansandae-logo.png';
 
 export function Header() {
   return (
