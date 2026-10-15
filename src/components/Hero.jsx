@@ -36,13 +36,13 @@ export function Hero() {
     <section className="relative grid min-h-screen place-items-center bg-[radial-gradient(circle_at_50%_40%,#fff_0,var(--color-paper)_58%)] px-6 pb-20 pt-28">
       <div className="hero-orbit" />
       <div className="pointer-events-none absolute left-1/2 top-[30%] z-[2] flex w-[calc(100%-48px)] max-w-[1240px] -translate-x-1/2 -translate-y-1/2 items-end justify-between md:top-1/2">
-        <div>
+        <div className="pointer-events-auto">
           <h1 className="m-0 max-w-[560px] text-[clamp(52px,8vw,132px)] font-extrabold leading-[.9] tracking-[-.08em]">
             <span className="mb-4 block font-serif text-[.37em] font-semibold tracking-[-.04em]">산산대 / клуб любителей гор</span>
             Найди свою<br />высоту.
           </h1>
         </div>
-        <p className="mb-1 hidden w-[205px] text-[13px] leading-relaxed text-muted lg:block">
+        <p className="pointer-events-auto mb-1 hidden w-[205px] text-[13px] leading-relaxed text-muted lg:block">
           <strong className="mb-2 block font-mono text-[11px] uppercase tracking-[.12em] text-ink">Сеул · с 2021 года</strong>
           Небольшие группы, длинные маршруты и более внимательный взгляд на город, сезон и друг на друга.
         </p>
