@@ -14,10 +14,12 @@
   --color-sakura: #d93a32;
 }
 
-html { scroll-behavior: smooth; }
-body { margin: 0; background: #f6f5f1; color: #16211c; font-family: 'Manrope', sans-serif; -webkit-font-smoothing: antialiased; }
-a { color: inherit; text-decoration: none; }
-::selection { background: #efa7a0; color: #16211c; }
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #f6f5f1; color: #16211c; font-family: 'Manrope', sans-serif; -webkit-font-smoothing: antialiased; }
+  a { text-decoration: none; }
+  ::selection { background: #efa7a0; color: #16211c; }
+}
 
 .hero-orbit { border: 1px solid rgba(22,33,28,.08); border-radius: 50%; position:absolute; left:50%; top:52%; transform:translate(-50%,-50%); width:70vw; height:70vw; max-width:850px; max-height:850px; }
 .mountain-shadow { position:absolute; width:72%; height:9%; border-radius:50%; background:rgba(27,53,39,.14); filter:blur(18px); bottom:2%; left:14%; z-index:-1; }
